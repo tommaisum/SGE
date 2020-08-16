@@ -3,11 +3,10 @@ package sge;
 import java.util.Scanner;
 
 public class Sge {
-    public static void main(String[] args) {
+    public static void main (String[] Args) {
         Scanner scanner = new Scanner(System.in);
         
-
-        String Senha = "";
+            String Senha = "";
         
 
         
@@ -48,7 +47,7 @@ public class Sge {
             }
             
             boolean logar = false;
-            
+
             while(logar == false){
                 System.out.println("Digite seu Login: ");
                 String login1 = scanner.nextLine();
@@ -71,3 +70,5 @@ public class Sge {
     }
     
 }
+
+
